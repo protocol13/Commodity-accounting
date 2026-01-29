@@ -3,7 +3,8 @@
 
 ## 🏗️ Архитектура
 | Domain (модели) | Infrastructure (SQLite) | Application (сервисы) | UI (WinForms) |
-| --------------- | ----------------------- | --------------------- |-------------- |                                      
+| --------------- | ----------------------- | --------------------- |-------------- |    
+|        ↓        |             ↓           |           ↓           |       ↓       | 
 | Product         | SqliteConnection        | ProductService        | MainForm      |
 | StockRow        | Repositories            | StockService          |               |
 
