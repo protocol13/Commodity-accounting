@@ -58,3 +58,8 @@
 1. Ввод данных со сканера не в поле ввода, а сразу в программу (Не знаю как правильно описать).
 2. Работа программы с Эвотор через IPA.
 3. Работа с принтером и принтером этикеток без скачивания PDF файлов ценников.
+
+## Примеры интерфейса
+<img width="939" height="716" alt="image" src="https://github.com/user-attachments/assets/005e431d-e27c-473d-824d-70eb7d9dc4d4" />
+<img width="1367" height="903" alt="image" src="https://github.com/user-attachments/assets/cf41d8de-cf7b-499b-918c-58300fade63c" />
+
