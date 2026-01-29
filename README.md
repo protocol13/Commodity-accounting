@@ -2,12 +2,10 @@
 ## Revisor v2.0 — это полноценная система товарного учета (ERP для малого бизнеса), с возможностью инвентаризации, поступления товара, продажи физ и юр.лицам согласно 54-ФЗ. Данные хранятся в SQLite базе данных.
 
 ## 🏗️ Архитектура
-Domain (модели) → Infrastructure (SQLite) → Application (сервисы) → UI (WinForms)
-
-     ↓                 ↓                      ↓                   ↓
-     
-Product         SqliteConnection      ProductService       MainForm
-StockRow        Repositories          StockService
+| Domain (модели) | Infrastructure (SQLite) | Application (сервисы) | UI (WinForms) |
+| --------------- | ----------------------- | --------------------- |-------------- |                                      
+| Product         | SqliteConnection        | ProductService        | MainForm      |
+| StockRow        | Repositories            | StockService          |               |
 
 
 ## 💾 База данных SQLite
